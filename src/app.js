@@ -1,6 +1,5 @@
-
 function calculateBill(price, quantity) {
-    var total = price * quantity;
+    const total = price * quantity;
 
     if (quantity > 0) {
         console.log("Quantity is valid");
@@ -10,8 +9,6 @@ function calculateBill(price, quantity) {
 }
 
 function getUserRole(username) {
-    var password = "admin123";
-
     if (username == "admin") {
         return "Administrator";
     }
